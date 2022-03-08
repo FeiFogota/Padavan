@@ -53,6 +53,7 @@ echo 15 > /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_close
 echo 15 > /proc/sys/net/netfilter/nf_conntrack_udp_timeout
 echo 180 > /proc/sys/net/netfilter/nf_conntrack_udp_timeout_stream
 echo 20 > /proc/sys/net/netfilter/nf_conntrack_icmp_timeout
+echo 20 > /proc/sys/net/netfilter/nf_conntrack_icmpv6_timeout
 echo 600 > /proc/sys/net/netfilter/nf_conntrack_generic_timeout
 
 # panic
